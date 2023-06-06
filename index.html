@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, connectial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/Homepage.css">
+    <link rel="icon" type="image/x-icon" href="images/Main-Logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>STM</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title">
+            <a href="dashboard.php"><img src="images/Main-Logo.png" alt="" class="logo"></a>
+            <span class="heading">Student Result Management System</span>
+            </div>
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="login.php">Teacher Login</a>
+                </li>
+                <li class="dropdown" onclick="toggleDisplay('1')">
+                    <a href="#" class="dropbtn">Courses &nbsp
+                        <span class="fa fa-angle-down"></span>
+                    </a>
+                    <div class="dropdown-content" id="1">
+                        <a href="login.php">Law Department</a>
+                        <a href="login.php">Science Department</a>
+                        <a href="login.php">Technology </a>
+                        <a href="login.php">Economics </a>
+                        <a href="login.php">Sports </a>
+                        <a href="login.php">Others </a>
+                    </div>
+                </li>
+                <li class="dropdown" onclick="toggleDisplay('2')">
+                    <a href="#" class="dropbtn">Student &nbsp
+                        <span class="fa fa-angle-down"></span>
+                    </a>
+                    <div class="dropdown-content" id="2">
+                        <a href="./login.php">Results</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="slider">
+            <img src="images/Frontpage.jpg" class="slider-image" alt="img">
+        </div>
+
+    </div>
+
+</body>
+
+</html>
