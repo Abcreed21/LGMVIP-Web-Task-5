@@ -22,6 +22,9 @@ This project is useful for students and institutions for getting the results in 
 
 - There are 5 Courses for each Students when result are view by Students it shows the Total Marks and Percentage he/she scored for all 5 Courses and available for download in PDF Format
 
+# Admin name: Admin
+# Admin pass: 123
+
  
 
  
